@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoatAndGoat - Burguer</title>
+    <link rel="stylesheet" href="recursos/estilo/estilo.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html"><img src="recursos/imagens/mini_logo.png" alt="log"></a>
+        <ul>
+            <li><a href="lanches.html">Lanches</a></li>
+            <li><a href="condimentos.html">Molhos Especiais</a></li>
+            <li><a href="acompanhamentos.html">Acompanhamentos</a></li>
+            <li><a href="bebidas_especiais.html">Bebidas Especiais</a></li>
+            <li><a href="seja_menbro.html">Seja Menbro</a></li>
+            <li onclick="listarProduto()" id=carrinho><a href="#" id="abrir_modal"><img src="recursos/imagens/carrinho.png" alt="">  </a></li>
+        </ul>
+            <div id="qta">
+                <span id="mostra_valor" >00</span> 
+            </div>
+    </nav>
+    <div id="menbro">
+
+            <img src="recursos/imagens/menbros/1.jpg" alt="pessoas" id="primeiro">
+            <img src="recursos/imagens/menbros/5.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/14.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/9.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/3.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/18.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/4.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/2.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/6.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/20.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/21.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/9.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/7.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/11.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/12.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/17.jpg" alt="pessoas"> 
+            <img src="recursos/imagens/menbros/15.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/16.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/13.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/19.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/8.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/17.jpg" alt="pessoas"> 
+            <img src="recursos/imagens/menbros/15.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/16.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/13.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/19.jpg" alt="pessoas">
+            <img src="recursos/imagens/menbros/8.jpg" alt="pessoas">
+        </section>  
+        <section id="form">
+            <form>
+                <label for="nome">Nome :</label>
+                <input type="text" placeholder="Digite seu nome" id="nome" name="nome">
+               
+                <input type="text" placeholder="Digite seu cpf" id="cpf" name="cpf">
+                <label for="email">E-mail:</label>
+                <input type="text" placeholder="Digite seu email" id="email" name="email">
+                <label for="telefone">Telefone:</label>
+                <input type="text" placeholder="Digite seu telefone" id="telefone" name="telefone">
+                <label for="foto">Foto:</label>
+                <input type="file">
+                <input  onclick="validas()"type="button" value="Torna-se Menbro">
+            </form>
+        </section>   
+    </div> 
+    <script type="text/javascript" src="recursos/js/action_valida.js"></script>
+</body>
+
+</html>

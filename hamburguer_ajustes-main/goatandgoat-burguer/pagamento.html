@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoatAndGoat - Burguer</title>
+    <link rel="stylesheet" href="recursos/estilo/estilo.css">
+</head>
+
+<body>
+    <div id="pagar_cartao">
+        <h1>Pagamentos</h1>
+        <a href="index.html"><img src="recursos/imagens/mini_logo.png" alt="log"></a>
+      
+    </div>
+
+    <div id="pagamentos">
+            
+        <section id="cartao">
+                <h2>Formas de Pagamentos</h2>
+            <form action="">
+               
+                <div id="selecione_cartao">
+                    <input type="radio" value="MasterCard" checked name="bandeira">                   
+                    <input type="radio" value="visa" name="bandeira">             
+                    <input type="radio" value="America Express" name="bandeira">                  
+                    <input type="radio" value="elo" name="bandeira">
+                </div>
+                <div id="selecione_bandeira">
+                    <img src="recursos/imagens/bandeiras/mastercard.png" alt="">
+                    <img src="recursos/imagens/bandeiras/visa.png" alt="">
+                    <img src="recursos/imagens/bandeiras/america.jpg" alt="">
+               
+                </div>
+
+                <label for="car_band">Digite o número do seu Cartão</label>
+                <input type="text" id="car_band">
+                <label for="nome">Digite o Nome do que está no Cartão</label>
+                <input type="text" id="nome">
+                <label for="cpf">Digite o seu CPF</label>
+                <input type="text" id="cpf">
+                <label for="codigo">Digite código atrás do seu cartão</label>
+                <input type="text" id="codigo">
+            </form>
+        </section>
+        <section id="detalhes">
+            <h2>Detalhes do Pedido</h2>
+              <div id="pedidos_nomes">
+                <p>seus pedidos </p>
+                <p>seus pedidos </p>
+                <p>seus pedidos </p>
+                <p>seus pedidos </p>
+                <p>seus pedidos </p>
+                
+              </div>
+              <p id="valor_total"></p>
+
+              <hr>
+               <input type="text" value="" id="cep" placeholder="cep">
+        </section>
+    </div>
+    
+    <script type="text/javascript" src="recursos/js/action_index.js"></script>
+</body>
+
+</html>

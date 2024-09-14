@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoatAndGoat - Burguer</title>
+    <link rel="stylesheet" href="recursos/estilo/estilo.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html"><img src="recursos/imagens/mini_logo.png" alt="log"></a>
+        <ul>
+            <li>
+                <input type="checkbox" name="trocando_tema" id="trocando_tema">
+                <label  for="trocando_tema">
+                    <img class="tema" id="sol" src="recursos/imagens/icones/solar.png" alt="">
+                    <img  class="tema"  id="lua" src="recursos/imagens/icones/lua.png" alt="">
+                </label>
+            </li>
+            <li><a href="lanches.html">Lanches</a></li>
+            <li><a href="condimentos.html">Molhos Especiais</a></li>
+            <li><a href="acompanhamentos.html">Acompanhamentos</a></li>
+            <li><a href="bebidas_especiais.html">Bebidas Especiais</a></li>
+            <li><a href="seja_menbro.html">Seja Menbro</a></li>
+            <li onclick="listarProduto()" id=carrinho><a href="#" id="abrir_modal"><img src="recursos/imagens/carrinho.png" alt="">  </a></li>
+        </ul>
+            <div id="qta">
+                <span id="mostra_valor" >00</span> 
+            </div>
+</nav>
+
+    <div id="secao">
+
+        <section>
+           <img src="recursos/imagens/logo.jpg" alt="logo">
+            <div  class ="container_par" id="parCar">
+                <p >
+                    Cansado do mesmo hambúrguer de sempre? Experimente o <strong>Goat Burger</strong>, uma alternativa deliciosa e nutritiva
+                    à carne bovina. Feito com carne de cabra magra e saborosa, o Goat Burger é uma opção mais saudável e
+                    sustentável para o seu churrasco.
+                </p>
+            </div>
+           
+        </section>
+        <section>
+            <img src="recursos/imagens/b1.png" alt="hambuguer">
+            <button type="submit">Lanches</button>
+        </section>
+    </div>
+    <div id="relogio">
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+        <div>
+            <span id="segundos">00</span>
+            <span class="tempo">Segundos</span>
+        </div>
+    </div>
+    <script type="text/javascript" src="recursos/js/action_index.js"></script>
+    <script type="text/javascript" src="recursos/js/model.js"></script>
+    <script type="text/javascript" src="recursos/js/trocando_tema.js"></script>
+</body>
+
+</html>
